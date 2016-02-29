@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://getbootstrap.com/examples/carousel/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/LB6WIWy.png">
+
+    <title>X-MEN</title>
+
+    <!-- Bootstrap core CSS -->
+<!-- <link rel="stylesheet" href="./Carousel Template for Bootstrap_files/bootstrap.min.css" > -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./js/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./js/carousel.css" rel="stylesheet">
+   
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body id="body">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">X-Men</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ><a href="#wolverine">Wolverine</a></li>
+                <li ><a href="#storm">Storm</a></li>
+                <li><a href="#mystique">Mystique</a></li>
+                 <li><a href="#others">Others</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li class="dropdown">
+                  <a href="https://getbootstrap.com/examples/carousel/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+                <!--   <ul class="dropdown-menu">
+                    <li><a href="https://getbootstrap.com/examples/carousel/#">Action</a></li>
+                    <li><a href="https://getbootstrap.com/examples/carousel/#">Another action</a></li>
+                    <li><a href="https://getbootstrap.com/examples/carousel/#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="https://getbootstrap.com/examples/carousel/#">Separated link</a></li>
+                    <li><a href="https://getbootstrap.com/examples/carousel/#">One more separated link</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/wolverine_carousel.png" alt="Wolverine">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Wolverine</h1>
+              <p>I'm coming for blood; no law, no code of conduct. You put me in the right direction, you get the hell out of my way.</p>
+              <p><a class="btn btn-lg btn-primary" href="#wolverine" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/halle_berry_72486.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Storm</h1>
+              <p>Do you know what happens to a toad when it's struck by lightning?... The same thing that happens to everything else.
+ </p>
+              <p><a class="btn btn-lg btn-primary" href="#storm" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/mystique_carousel.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Mystique</h1>
+              <p>Men weren't really the enemy - they were fellow victims suffering from an outmoded masculine mystique that made them feel unnecessarily inadequate when there were no bears to kill..</p>
+              <p><a class="btn btn-lg btn-primary" href="#mystique" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="https://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="https://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+     <!--  <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+        </div><! /.col-lg-4 -->
+        <!-- <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+        </div><! /.col-lg-4 -->
+        <!-- <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+        </div><! /.col-lg-4 -->
+     <!--  </div>/.row  --> 
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div id ="wolverine" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Logan <span class="text-muted">Come and Get me.</span></h2>
+          <p class="lead">Wolverine is a fictional superhero appearing in American comic books published by Marvel Comics, most often in relation to the X-Men superhero team. Born James Howlett[1] and commonly known as Logan, Wolverine is a mutant who possesses animal-keen senses, enhanced physical capabilities, and powerful regenerative ability known as a healing factor. He has been depicted variously as a member of the X-Men, Alpha Flight, and the Avengers.</p>
+              
+        </div>      
+
+        <div class="col-md-5">
+          <img id="wolve" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/wolverine.png" data-holder-rendered="true">
+        </div>
+      </div>
+      <div class="row">
+                 <div class="col-md-6">
+                     <button id="b1" class="btn btn-info">Double Click for more images..</button>   
+                 </div>
+                 <div class="col-md-6">        
+                   <button id="b2" class="btn btn-warning">Double Click To disappear images..</button>  
+                 </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                   <img id="wolve1" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/volvo.png" data-holder-rendered="true">  </div>
+                <div class="col-md-4">
+                    <img id="wolve2" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/volvo2.png" data-holder-rendered="true"> </div>
+                <div class="col-md-4">
+                     <img id="wolve3" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/volvo3.png" data-holder-rendered="true">       </div>
+              </div>
+
+      <hr class="featurette-divider">
+
+      <div id="storm" class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Ororo <span class="text-muted">Dare to mess with me!</span></h2>
+          <p class="lead">Storm (Ororo Munroe[4]) is a fictional superhero appearing in American comic books published by Marvel Comics, commonly associated with the X-Men. The character first appeared in Giant-Size X-Men #1 (May 1975), and was created by writer Len Wein and artist Dave Cockrum.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive zoom center-block"  alt="500x500" src="images/storm.png" data-holder-rendered="true">
+        </div>
+      </div>
+<div class="row">
+                 <div class="col-md-6">
+                     <button id="b3" class="btn btn-info">Double Click for more images..</button>   
+                 </div>
+                 <div class="col-md-6">
+                     <button id="b4" class="btn btn-danger">Double Click to Lock Images</button>   
+                 </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                   <img id="storm1" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/storm1.png" data-holder-rendered="true">  </div>
+                <div class="col-md-4">
+                    <img id="storm2" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/storm2.png" data-holder-rendered="true"> </div>
+                <div class="col-md-4">
+                     <img id="storm3" class="featurette-image zoom img-responsive center-block"  alt="500x500" src="images/storm3.png" data-holder-rendered="true">       </div>
+              </div>
+      <hr class="featurette-divider">
+
+      <div id = "mystique" class="row featurette">
+        <div class="col-md-7">
+          <h2 id="mys-text" class="featurette-heading">Raven <span class="text-muted">See for yourself.</span></h2>
+          <p id="mys-text" class="lead">Mystique (Raven Darkhölme) is a fictional supervillain appearing in American comic books published by Marvel Comics, most commonly in association with the X-Men. Created by artist David Cockrum and writer Chris Claremont, she first appeared in the comic book Ms. Marvel #16, published in 1978. Mystique is a member of a subspecies of humanity known as mutants, who are born with superhuman abilities. Mystique is a shapeshifter who can mimic the appearance and voice of any person with exquisite precision, and her natural appearance includes blue skin and yellow eyes. She is typically portrayed as a foe of the X-Men.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive zoom center-block"  alt="500x500" src="images/Mystique.png" data-holder-rendered="true">
+        </div>
+      </div>
+      <div class= "form-group row">
+                 <div class="col-md-3">
+                   <label for="usr">Search More Images:</label>
+                  
+                 </div>
+                 <div class="col-md-3">
+                <input type="text"  id="usr"> </div>
+                <div class="col-md-3">
+                   <label for="usr1"> Type in:</label>
+                  
+                 </div>
+                 <div class="col-md-3">
+                <input type="text"  id="usr1"> </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                   <img id="mystique1" class="featurette-image  img-responsive center-block"  alt="500x500" src="images/myst1.png" data-holder-rendered="true">  </div>
+                <div class="col-md-4">
+                   <img id="mystique2" class="featurette-image  img-responsive center-block"  alt="500x500" src="images/myst2.png" data-holder-rendered="true">  </div>
+              </div>
+
+
+      <hr class="featurette-divider">
+
+        <div id = "others" class="row featurette">
+        <div class="col-md-12">
+          <div id="down1" class="down">Professor X</div>
+          <div id="up1" class="up">Professor X / Charles Xavier</div>
+          <div id="panel1" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Professor X" src="images/patrick-stewart-as-professor-x.png" data-holder-rendered="true"></div>
+
+           <div id="down2" class="down">Magneto</div>
+          <div id="up2" class="up">Magneto / Erik Lehnsherr</div>
+          <div id="panel2" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Magneto" src="images/erik-lensher.png" data-holder-rendered="true"></div>
+
+           <div id="down3" class="down">Phoenix</div>
+          <div id="up3" class="up">Phoenix / Jean Grey </div>
+          <div id="panel3" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Jean" src="images/Jean.png" data-holder-rendered="true"></div>
+
+           <div id="down4" class="down">Cyclops</div>
+          <div id="up4" class="up">Cyclops / Scott Summers</div>
+          <div id="panel4" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Cyclops" src="images/Cyclops.png" data-holder-rendered="true"></div>
+
+          <div id="down5" class="down5">Beast</div>
+          <div id="up5" class="up5">Beast / Dr. Henry Philip "Hank" McCoy</div>
+          <div id="panel5" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Beast" src="images/Beast.png" data-holder-rendered="true"></div>
+
+          <div id="down6" class="down">Sprite / Shadowcat</div>
+          <div id="up6" class="up">Sprite / Shadowcat /Katherine Anne "Kitty" Pryde </div>
+          <div id="panel6" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Kitty" src="images/Kitty.png" data-holder-rendered="true"></div>
+
+          <div id="down7" class="down">Blink</div>
+          <div id="up7" class="up">Blink / Clarice Ferguson</div>
+          <div id="panel7" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Blink" src="images/Blink.png" data-holder-rendered="true"></div>
+
+          <div id="down8" class="down">Collosus</div>
+          <div id="up8" class="up">Collosus / Piotr Nikolaievitch "Peter" Rasputin</div>
+          <div id="panel8" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Collosus" src="images/Collosus.png" data-holder-rendered="true"></div>
+
+          <div id="down9" class="down">QuickSilver</div>
+          <div id="up9" class="up">Quicksilver / Pietro Django Maximoff</div>
+          <div id="panel9" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Quicksilver" src="images/Quicksilver.png" data-holder-rendered="true"></div>
+
+          <div id="down0" class="down">Sunspot</div>
+          <div id="up0" class="up">Sunspot / Roberto "Bobby" Da Costa</div>
+          <div id="panel0" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Sunspot" src="images/Sunspot.png" data-holder-rendered="true"></div>
+
+          <div id="down00" class="down">Bishop</div>
+          <div id="up00" class="up">Bishop / Lucas Bishop</div>
+          <div id="panel00" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Bishop" src="images/bishop.png" data-holder-rendered="true"></div>
+
+          <div id="down01" class="down">Warpath</div>
+          <div id="up01" class="up">Warpath / James Proudstar</div>
+          <div id="panel01" class="panel"> <img class="img featurette-image img-responsive center-block"  alt="Warpath" src="images/Warpath.png" data-holder-rendered="true"></div>
+          
+      </div>
+    </div>
+      <!-- /END THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div id="contact" class="row featurette">
+        <div class="table-responsive">
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email Address</th>
+                    <th>Phone</th>
+                   <th></th>
+                  </tr>
+                </thead>
+                <tbody class="tbody">
+                  <tr>
+                    <td><input type ="text" class="cell" value="Anna"></input></td>
+                    <td><input type ="text" class="cell" value="Pitt"></input></td>
+                    <td><input type ="text" class="cell" value="xyz@utdallas.edu"</input></td>
+                    <td><input type ="text" class="cell" value="9874563210"></input></td>
+                    <td> <button id="delete1" class="btn delete btn-danger">Delete</button></td>
+                  </tr>
+                  <tr>
+                    <td><input type ="text" class="cell" value="Annay"></td>
+                    <td><input type ="text" class="cell" value="Pittwala"></td>
+                    <td><input type ="text" class="cell" value="abc@utdallas.edu"></input></td>
+                    <td><input type ="text" class="cell" value="4578963210"></input></td>
+                    <td> <button id="delete2" class="btn delete btn-danger">Delete</button></td>
+                    
+                  </tr>
+                  <tr>
+                    <td><input type ="text" class="cell" value="Annamika"></input></td>
+                    <td><input type ="text" class="cell" value="Pitt"></input></td>
+                    <td><input type ="text" class="cell" value="pqr@utdallas.edu"></input></td>
+                    <td><input type ="text" class="cell" value="4694563210"></input></td>
+                    <td> <button id="delete3" class="btn delete btn-danger">Delete</button></td>
+                    
+                  </tr>
+                  <tr >
+                    <td><input type ="text" class="cell" value="Annand"></input></td>
+                    <td><input type ="text" class="cell" value="Pittsburgh"></input></td>
+                    <td><input type ="text" class="cell" value="stu@utdallas.edu"></input></td>
+                    <td><input type ="text" class="cell" value="9874567890"></input></td>
+                    <td> <button id="delete4" class="btn delete btn-danger">Delete</button></td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+        </div>  
+        <div class="col-md-6">
+                     <button id="add" class="btn btn-primary">Add</button>   
+                 </div>    
+      </div>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2015 Company, Inc. ·</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <!-- <script src="./Carousel Template for Bootstrap_files/jquery.min.js"></script> -->
+    <script src="myJs.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+
+<!-- <script src="./Carousel Template for Bootstrap_files/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
